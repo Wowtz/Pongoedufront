@@ -1,11 +1,11 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import MacacoImg from "@/imports/Macaco.jpeg";
 
 export function MascotLogo() {
   return (
     <div className="relative flex items-end">
-      {/* Mascote PongoEdu - Macaco-prego cientista */}
       <ImageWithFallback
-        src="/src/imports/Macaco.jpeg"
+        src={MacacoImg}
         alt="PongoEdu Mascote"
         className="w-[60px] h-[70px] object-contain"
       />
